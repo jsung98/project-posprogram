@@ -1,15 +1,19 @@
 package GUI;
 
+import java.awt.Font;
+import java.awt.SystemColor;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
-import javax.swing.*;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JTextField;
 
 import DAO.BakeryDAO;
 import Vo.IdsearchVo;
-import java.awt.Font;
-import java.awt.SystemColor;
 
 public class IdsearchUI {
    private JFrame f;
@@ -23,7 +27,7 @@ public class IdsearchUI {
       dao = new BakeryDAO();
 
       f = new JFrame("ID Ã£±â");
-      f.setBounds(750, 360, 400, 200);
+      f.setBounds(760, 360, 400, 200);
       f.getContentPane().setLayout(null);
       f.setDefaultCloseOperation(f.DISPOSE_ON_CLOSE);
 
@@ -41,7 +45,7 @@ public class IdsearchUI {
 
       b1 = new JButton("Ã£±â");
       b1.setBackground(SystemColor.inactiveCaption);
-      b1.setFont(new Font("ÇÑÄÄ °íµñ", Font.PLAIN, 12));
+      b1.setFont(new Font("¸¼Àº °íµñ Semilight", Font.PLAIN, 13));
       b1.setBounds(250, 40, 70, 30);
       b1.addActionListener(new ActionListener() {
          @Override
@@ -70,8 +74,8 @@ public class IdsearchUI {
       
       b2 = new JButton("È®ÀÎ");
       b2.setBackground(SystemColor.inactiveCaption);
-      b2.setFont(new Font("ÇÑÄÄ °íµñ", Font.PLAIN, 12));
-      b2.setBounds(250, 85, 70, 30);
+      b2.setFont(new Font("¸¼Àº °íµñ Semilight", Font.PLAIN, 13));
+      b2.setBounds(250, 90, 70, 30);
       b2.addActionListener(new ActionListener() {
          @Override
          public void actionPerformed(ActionEvent e) {

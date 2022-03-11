@@ -1,5 +1,7 @@
 package GUI;
 
+import java.awt.Font;
+import java.awt.SystemColor;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -12,8 +14,6 @@ import javax.swing.JTextField;
 
 import DAO.BakeryDAO;
 import Vo.PwdsearchVo;
-import java.awt.Font;
-import java.awt.SystemColor;
 
 public class PwdsearchUI {
    private JFrame f;
@@ -45,7 +45,7 @@ public class PwdsearchUI {
 
       b1 = new JButton("Ã£±â");
       b1.setBackground(SystemColor.inactiveCaption);
-      b1.setFont(new Font("ÇÑÄÄ °íµñ", Font.PLAIN, 12));
+      b1.setFont(new Font("¸¼Àº °íµñ Semilight", Font.PLAIN, 13));
       b1.setBounds(250, 40, 70, 30);
       b1.addActionListener(new ActionListener() {
          @Override
@@ -73,8 +73,8 @@ public class PwdsearchUI {
       });
       b2 = new JButton("È®ÀÎ");
       b2.setBackground(SystemColor.inactiveCaption);
-      b2.setFont(new Font("ÇÑÄÄ °íµñ", Font.PLAIN, 12));
-      b2.setBounds(250, 85, 70, 30);
+      b2.setFont(new Font("¸¼Àº °íµñ Semilight", Font.PLAIN, 13));
+      b2.setBounds(250, 90, 70, 30);
       b2.addActionListener(new ActionListener() {
          @Override
          public void actionPerformed(ActionEvent e) {

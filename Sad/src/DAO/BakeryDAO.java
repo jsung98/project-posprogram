@@ -222,7 +222,7 @@ public class BakeryDAO {
          connDB();
 
          if (pid != null) {
-            sql += " where name='" + pid + "'";
+            sql += " where id='" + pid + "'";
          }
          stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
          rs = stmt.executeQuery(sql);
@@ -279,7 +279,7 @@ public class BakeryDAO {
          connDB();
 
          if (pid != null) {
-            sql += " where name='" + pid + "'";
+            sql += " where id ='" + pid + "'";
          }
          stmt = conn.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
          rs = stmt.executeQuery(sql);
@@ -298,7 +298,4 @@ public class BakeryDAO {
       }
       return pwdlist;
    }
-   
-
-
 }
