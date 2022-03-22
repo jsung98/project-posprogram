@@ -40,6 +40,7 @@ public class CountListUI {
       f.setBounds(1000, 300, 400, 350);
       f.getContentPane().setLayout(null);
       f.setDefaultCloseOperation(f.DISPOSE_ON_CLOSE);
+      
 
       t = new JTable(dao.CountListArr(dao.CountList()), countlist);
       // t.setBounds(50, 20, 500, 200);

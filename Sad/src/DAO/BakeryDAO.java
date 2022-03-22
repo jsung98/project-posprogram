@@ -31,7 +31,7 @@ public class BakeryDAO {
          /*
           * stmt = con.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE,
           * ResultSet.CONCUR_UPDATABLE); System.out.println("statement create success.");
-          */
+          */ 
       } catch (Exception e) {
          e.printStackTrace();
       }
