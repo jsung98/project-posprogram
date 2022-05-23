@@ -1,4 +1,3 @@
-# project-posprogram## JAVA POS PROGRAM
 
 # 프로젝트 설명
 JAVA AWT/SWING , DB를 이용한 포스POS 프로그램입니다.
